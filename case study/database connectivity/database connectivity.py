@@ -50,7 +50,7 @@ def delRecord():
     print("Record DELETED Successfully")
 
 def updatePhoneEmail():
-    prn = input("Enter the PRN whose record is to be deleted: ")
+    prn = input("Enter the PRN whose record is to be updated: ")
     mob = input("Enter new mobile number: ")
     em = input("Enter new email id: ")
     query = "UPDATE STUDENTS SET MOBILE='{}',EMAIL='{}' WHERE PRN='{}'".format(mob, em, prn)
